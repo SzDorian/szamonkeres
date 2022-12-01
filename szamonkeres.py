@@ -17,11 +17,30 @@ print(szam2)
 '''
 
 #3.feladat
-
+'''
 szam1 = int(input('Kérek egy számot:'))
 szam2 = int(input('Kérek egy másik számot:'))
 print(szam1+szam2)
 print(szam1-szam2)
 print(szam1*szam2)
 print(szam1/szam2)
+'''
+#8.feladat
+'''
+szam = 1
+while szam <=20:
+    if szam % 2 == 0:
+        print(szam,"páros")
+        szam += 1
+    elif szam % 2 == 1:
+        print(szam,"páratlan")
+        szam += 1
+'''
+#9.feladat
 
+#10.feladat
+
+szam1 = int(input('Kérek egy számot:'))
+szam2 = int(input('Kérek egy másik számot:'))
+print(szam1+szam2)
+print(szam1+szam2/2)
